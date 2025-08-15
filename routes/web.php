@@ -1,10 +1,11 @@
 <?php
 
-use App\Http\Controllers\AcademicController;
-use App\Http\Controllers\ExperienceController;
+use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ProfileController;
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AcademicController;
+use App\Http\Controllers\SkillTypeController;
+use App\Http\Controllers\ExperienceController;
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
 

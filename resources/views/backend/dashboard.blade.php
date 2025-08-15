@@ -20,6 +20,9 @@
                 <a href="{{ route('academics.index') }}" class="block bg-white rounded-lg shadow hover:shadow-lg transition p-6 text-center cursor-pointer">
                     <span class="text-xl font-semibold">Academics</span>
                 </a>
+                <a href="#" class="block bg-white rounded-lg shadow hover:shadow-lg transition p-6 text-center cursor-pointer">
+                    <span class="text-xl font-semibold">Skill Types</span>
+                </a>
                 <a href="#skills" class="block bg-white rounded-lg shadow hover:shadow-lg transition p-6 text-center cursor-pointer">
                     <span class="text-xl font-semibold">Skills</span>
                 </a>
